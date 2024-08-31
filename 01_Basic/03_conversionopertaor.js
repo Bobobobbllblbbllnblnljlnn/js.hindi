@@ -1,4 +1,4 @@
- let score = undefined;
+let score = undefined;
 
 // console.log(typeof(score));
 // console.log(typeof score);
@@ -63,6 +63,6 @@ let gameCounter = 100;
 gameCounter++;
 console.log(gameCounter);
 
-
 // link to study;
 //https://262.ecma-international.org/14.0/index.html?_gl=1*wlkw6w*_ga*MTc4NTc2NDk0MC4xNzI1MDg4MDE1*_ga_TDCK4DWEPP*MTcyNTA4ODAxNS4xLjAuMTcyNTA4ODAxNS4wLjAuMA..#sec-type-conversion
+
