@@ -33,3 +33,25 @@ let myObj ={
 let myFunction = function(){
     console.log("heelo wored");
 }
+
+// ***************************************************
+
+// stack (Primitive)  / Heap (Non Primitive);
+
+let myyoutbname = "rajeevmahera@144";
+
+let anothername = myyoutbname;
+anothername = "rajeev@345655"
+console.log(myyoutbname);
+console.log(anothername);
+
+let userOne = {
+    Email: "rajeev22@gamnil.com",
+    uip: "user@hylc"
+}
+
+let userTwo = userOne;
+
+userOne.Email = "hitisch@googlel.com";
+console.log(userOne.Email);
+console.log(userTwo.Email);
