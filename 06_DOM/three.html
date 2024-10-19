@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Lerrning on chay our code</title>
+</head>
+<body style="background-color: #212121; color: #fff;"  >
+    <div class="prant">
+        <!-- this is comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tusday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+    </div>  
+</body>
+<script>
+   const prant =  document.querySelector('.prant')
+//    console.log('prant')
+//    console.log(prant.children);
+//    console.log(prant.children[1].innerHTML);
+
+//    for (let i = 0; i < prant.children.length; i++) {
+//     console.log(prant.children[i].innerHTML);
+    
+//    }
+   prant.children[1].style.color="orange";
+//    console.log(prant.firstElementChild);
+//    console.log(prant.lastElementChild);
+
+  const dayone =  document.querySelector('.day')
+//    console.log(dayone)
+//    console.log(dayone.parentElement)
+//    console.log(dayone.nextElementSibling)
+
+   console.log("NODES", prant.childNodes)
+
+</script>
+</html>
