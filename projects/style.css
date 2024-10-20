@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #gray {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin: 5px;
+  }
+  #red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 5px;
+  }
+  #yellow {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 5px;
+  }
+  #blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 5px;
+  }
