@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid wheat; */
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 3px 2px #fff;
+    background-color: #fff;
+}
+
+nav button{
+    width: 100px;
+    padding: 12px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+nav input{
+    width: 100px;
+    padding: 12px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.container{
+    text-align: center;
+   
+}
+
+.container h1{
+    margin: 30px;
+}
+.container input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.container #button{
+    margin: 12px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container #Weight-guide{
+    margin: 5px;
+    line-height: 30px;
+}
+
+#results{
+    color: #fff;
+    font-size: 3rem;
+}
