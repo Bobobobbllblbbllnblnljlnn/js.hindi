@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acyn function</title>
+  </head>
+  <body>
+    <h1>Chay our javascript</h1>
+    <button id="start">Start!</button>
+    <button id="stop">Stop!</button>
+   
+  </body>
+  <script>
+    // setInterval(function(){
+    //     console.log("Rajeev", Date.now());
+    // },2000)
+    // const sayDate = function (str) {
+    //   console.log(str, Date.now());
+    // };
+    // const clear = setInterval(sayDate, 1000, "hello");
+    // clearInterval(clear);
+
+      document.querySelector('#start').addEventListener('click', function(){
+        const clear = setInterval(function(str){
+            console.log(str, Date.now())
+            console.log("click")
+        }, 2000, "Hello Rajeev Mahera" )
+
+        document.querySelector('#stop').addEventListener('click', function(){
+      clearInterval(clear);
+      console.log("sorry")
+    })
+    })
+
+  
+
+    
+  </script>
+</html>
