@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acyn function </title>
+</head>
+<body>
+    <h1>Chay our code</h1>
+    <button id="stop">Click me!</button>
+</body>
+<script>
+    // setTimeout(function(){
+    //     console.log("Raeev Mahera")
+    // },2000)
+
+// const sayRajeev = function(){
+//     console.log("Rajeev Mahera");
+// }
+// setTimeout(sayRajeev , 2000);
+
+// const changecode = function(){
+//     document.querySelector('h1').innerHTML="Best js hindi series"
+// }
+// setTimeout(changecode, 2000)
+
+ const changemsg = setTimeout(function(){
+     document.querySelector('h1').innerHTML="Best js hindi series"
+}, 2000)
+// clearTimeout(clear);
+
+// cleartimeout
+
+document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(changemsg)
+    console.log("STOPED");
+})
+
+
+
+
+</script>
+</html>
